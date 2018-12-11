@@ -68,16 +68,21 @@ function(request) {
         tags$a(name="step", h4("Step 1")),
         p("Prepare the RNA-seq data as log2(n+1) normalized values in the following format." , style = "font-size:14px"),
         tableOutput('exptab'),
-        p("The first row should be the titles contain gene and sample names and the first column should be the list of genes (Human gene names/gene IDs or mouse gene names/gene IDs are all accessible)." , style = "font-size:14px"),
+        p("The table should be tab-delimited." , style = "font-size:14px"),
+        p("The first row should contain the column headers for gene symbol and sample names." , style = "font-size:14px"),
+        p("The first column should be the list of genes (Human gene symbols/gene IDs or mouse gene symbols/gene IDs are supported)." , style = "font-size:14px"),
         tags$a(name="step", h4("Step 2")),
-        p("Click on \"Upload\" tab and click \"Browse\" button  to select and open your file. The OMF scores of these samples were then be calculated and showed on the next table." , style = "font-size:14px"),
+        p("Click on the \"Upload\" tab and click the \"Browse\" button to select and open your file. The OMF scores of these samples will be calculated and shown in the next table." , style = "font-size:14px"),
         tags$a(name="step", h4("Step 3")),
-        p("Select the correct cancer model on the drop-down cancer list. The samples with the OMF scroes of the corresponding cancer model were automatically added to the sample lists.", style = "font-size:14px"),
+        p("Select the appropriate cancer model from the drop-down list. The samples with the OMF scores from the corresponding cancer model will be added to the sample list.", style = "font-size:14px"),
         tags$a(name="step", h4("Step 4")),
-        p("Click on \"Select Sample\" tab and then click \"Clear All Selected\" to clear the pre-selected samples. Click on each sample row to select the samples." , style = "font-size:14px"),
+        p("Click on \"Select Sample\" tab." , style = "font-size:14px"),
+        p("Click on each sample row to select the samples." , style = "font-size:14px"),
+        p("The \"Clear All Selected\" option removes the pre-selected samples." , style = "font-size:14px"),
         tags$a(name="step", h4("Step 5")),
-        p("Click on \"Visualize\" tab to see the radar plot of these samples. And then select the column names/attributes in the legand table." , style = "font-size:14px"),
-        p("Right-click on the plot to save the radar plot. Or print it to a PDF file using the Browser's \"print\" button or take a screen shot." , style = "font-size:14px")
+        p("Click on the \"Visualize\" tab to see the radar plot of these samples." , style = "font-size:14px"),
+        p("Select the \"column names\" in the legend table." , style = "font-size:14px"),
+        p("Right-click on the plot to save the radar plot or print it to a PDF file using the Browser's \"print\" button or take a screen shot." , style = "font-size:14px")
       )
     )
 
