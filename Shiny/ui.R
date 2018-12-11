@@ -43,7 +43,7 @@ function(request) {
                     accept = c(
                       'text/tab-separated-values',
                       'text/plain',
-		      '.txt',
+		                  '.txt',
                       '.csv',
                       '.tsv'
                     )),
@@ -60,9 +60,25 @@ function(request) {
           DT::dataTableOutput('Scored')
       )
    )
-
-
-
+  Tutor <- function() 
+    div(
+      tags$a(name="Tutorhead", h3("Tutorial Example - visualizing the uploaded data")),
+      wellPanel(
+        tags$a(name="step", h4("Step 1")),
+        p("Prepare the RNA-seq data as log2(n+1) normalized values in the following format." , style = "font-size:14px"),
+        tableOutput('exptab'),
+        p("The first row should be the titles contain gene and sample names and the first column should be the list of genes (Human gene names/gene IDs or mouse gene names/gene IDs are all accessible)." , style = "font-size:14px"),
+        tags$a(name="step", h4("Step 2")),
+        p("Click on \"Upload\" tab and click \"Browse\" button  to select and open your file. The OMF scores of these samples were then be calculated and showed on the next table." , style = "font-size:14px"),
+        tags$a(name="step", h4("Step 3")),
+        p("Select the correct cancer model on the drop-down cancer list. The samples with the OMF scroes of the corresponding cancer model were automatically added to the sample lists.", style = "font-size:14px"),
+        tags$a(name="step", h4("Step 4")),
+        p("Click on \"Select Sample\" tab and then click \"Clear All Selected\" to clear the pre-selected samples. Click on each sample row to select the samples." , style = "font-size:14px"),
+        tags$a(name="step", h4("Step 5")),
+        p("Click on \"Visualize\" tab to see the radar plot of these samples. And then select the column names/attributes in the legand table." , style = "font-size:14px"),
+        p("Right-click on the plot to save the radar plot. Or print it to a PDF file using the Browser's \"print\" button or take a screen shot." , style = "font-size:14px")
+      )
+    )
 
 # Define UI for random distribution application 
 fluidPage(
@@ -80,7 +96,8 @@ fluidPage(
        tabPanel( "Visualize", Visualize()),
        tabPanel( "Select Study", SelectStudy()),
        tabPanel( "Select Sample", SelectSample()),
-       tabPanel( "Upload", Upload() ))
+       tabPanel( "Upload", Upload()),
+       tabPanel( "Tutorials", Tutor() ))
     )
 }
 

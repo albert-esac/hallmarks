@@ -23,6 +23,7 @@ mgrep = function(l, x)
         }
     ))))
 
+extable <- data.frame("gene" = c("Gene1","Gene2","...","GeneN"), "Sample1" = c(".",".",".","."), "Sample2" = c(".",".",".","."), "..." = c(".",".",".","."), "SampleN" = c(".",".",".","."))
 
 hallmark_columns = c(
     "Evading_growth_suppressors",
@@ -183,6 +184,8 @@ spaceFix <- function (x) gsub("[._]", " ", x)
 
 
 function(input, output, session) {
+  
+  output$exptab <- renderTable(extable, align = 'c');
 
   UserState <- reactiveValues();
   
