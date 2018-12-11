@@ -160,9 +160,9 @@ computeSignatureScore = function(X, cancer) {
 	Biosample_Name = rep( "none", n),
 	Biosample_Description = rep( "none", n),
 	Tissue = rep( "none", n),
-        Cell_Type = rep( "none", n),
-        Cell_Line = rep( "none", n),
-        Treatment = rep( "none", n),
+    Cell_Type = rep( "none", n),
+    Cell_Line = rep( "none", n),
+    Treatment = rep( "none", n),
 	Strain = rep( "none", n),
 	Sample_Set = paste(colnames(X), rep( simpleCap(signature$cancer), n), sep="."),
 	stringsAsFactors=FALSE
@@ -212,13 +212,13 @@ function(input, output, session) {
         "file1", 
         "Uploaded", 
         "DB_cell_clicked",
-	"clearStudies",
-	"clearSamples",
+	    "clearStudies",
+	    "clearSamples",
         "DB_rows_all",
         "DB_rows_current",
         "DB_rows_selected",
-	"DB_row_last_clicked",
-	"study_row_last_clicked",
+	    "DB_row_last_clicked",
+	    "study_row_last_clicked",
         "DB_search",
         "DB_state",
         "Scored_cell_clicked",
@@ -234,10 +234,10 @@ function(input, output, session) {
         "study_search",
         "study_state",
         "Uploaded_cell_clicked",
-	"Uploaded_rows_current",
-	"Uploaded_rows_selected",
-	"Uploaded_search",
-	"Uploaded_state",
+	    "Uploaded_rows_current",
+	    "Uploaded_rows_selected",
+	    "Uploaded_search",
+	    "Uploaded_state",
         "Uploaded_rows_all"))
 
    
@@ -373,6 +373,8 @@ function(input, output, session) {
   }
 
   Mapgene  = read.table("geneSymbol_to_geneID.txt", header = TRUE, sep = "\t")
+  Hgenes  = read.table("HumanGeneSymbol_to_geneID.txt", header = TRUE, sep = "\t")
+  Mgenes  = read.table("MouseGeneSymbol_to_geneID.txt", header = TRUE, sep = "\t")
   observeEvent( input$file1,  {
     # input$file1 will be NULL initially. After the user selects
     # and uploads a file, it will be a data frame with 'name',
@@ -418,17 +420,24 @@ function(input, output, session) {
         d = d %>% group_by(GeneID) %>% summarise_all(funs(mean))
         e = "Aggregating duplicate rows by averaging"
     }
+    #upload table output
+    din = as.data.frame(d)
+    rownames(din) <- as.character(din[,1])
+    din[,1] <- NULL
+    UserState$uploaded = din
 
-
-    d = as.data.frame(d)
-    rownames(d) <- as.character(d[,1])
-    d[,1] <- NULL
-
-    UserState$uploaded = d
-    output$Uploaded <- DT::renderDataTable( { DT::datatable(UserState$uploaded, options = list( pageLength = 10), colnames = c('geneID' = 1)) })
+    gid = as.character(d$GeneID)
+    HGene <- as.character(with(Hgenes, gene[match(gid,geneID)]))
+    MGene <- as.character(with(Mgenes, gene[match(gid,geneID)]))
+    dout <- cbind(MGene,HGene,d)
+    dout = as.data.frame(dout)
+    rownames(dout) <- as.character(dout[,3])
+    dout[,3] <- NULL
+    UserState$uploadedout = dout
+    output$Uploaded <- DT::renderDataTable( { DT::datatable(UserState$uploadedout, options = list( pageLength = 10), colnames = c('geneID' = 1, 'Mouse_gene' = 2, 'Human_gene' = 3)) })
   })
 
-  output$study <- DT::renderDataTable( { 
+    output$study <- DT::renderDataTable( { 
         DT::datatable(StudiesDB, selection = list(selected = as.list(UserState$studies_selected)))
     })
 
@@ -438,6 +447,15 @@ function(input, output, session) {
             DT::datatable(UserState$uploadedScored, rownames=FALSE)
         }
     })
+
+    output$downloadScores <- downloadHandler(
+        filename = function() {
+          paste("OMFS_upload.csv", sep = "")
+        },
+        content = function(file) {
+          write.csv(UserState$uploadedScored, file, row.names = FALSE)
+        }
+   )
 
    observe({
         db = SamplesDB[ mgrep(UserState$studies, SamplesDB$ImmPort_Study_ID), ]
@@ -450,13 +468,12 @@ function(input, output, session) {
         UserState$DB = db
    })
 
-
    output$downloadSamples <- downloadHandler(
         filename = function() {
-          paste("OMFS.csv", sep = "")
+          paste("OMFS_samples.csv", sep = "")
         },
         content = function(file) {
-          write.csv(DB(), file, row.names = FALSE)
+          write.csv(UserState$DB[ unlist(UserState$samples), ], file, row.names = FALSE)
         }
    )
 

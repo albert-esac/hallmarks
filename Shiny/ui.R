@@ -14,8 +14,8 @@ function(request) {
         div(id = "sampleform",
 	    style="width:100%",
             tags$a(name="Select_Samples", h3("Select Samples")),
-            downloadButton("downloadSamples", "Download Samples"),
             actionButton("clearSamples", "Clear All Selected"),
+            downloadButton("downloadSamples", "Download data for selected Samples"),
             DT::dataTableOutput('DB')
         )
 
@@ -57,6 +57,7 @@ function(request) {
       wellPanel(
           p("Select the correct cancer pathology type"),
           selectInput('Cancer', 'Cancer', Cancers) ,
+          downloadButton("downloadScores", "Download Scores"),
           DT::dataTableOutput('Scored')
       )
    )
