@@ -1,0 +1,1 @@
+./shiny > ~/shiny_output/stdout.txt 2> ~/shiny_output/stderr.txt &

@@ -88,8 +88,11 @@ T = NULL
 aggregateScores = function() {
     primary = function(x) {
 	cType = strsplit(x, "\\.")[[1]][2]
+	StdSet = strsplit(x, "\\.")[[1]][1]
         df = read.table(paste0("../Scores/data_files/",x), sep="\t", header=1, as.is=TRUE)
+
 	df$Cancer_Model <- cType
+	df$ImmPort.Study.ID <- StdSet
         if (is.null(S))
             S <<- df
         else {
@@ -98,7 +101,7 @@ aggregateScores = function() {
     }
     annotate = function(x) {
         df = read.table(paste0("../Scores/data_files/",x), sep="\t", header=1, as.is=TRUE, fill=TRUE)
-        df = merge(S, df, by = "Repository.Accession", all.S = TRUE)
+        df = merge(S, df, by = c("ImmPort.Study.ID", "Repository.Accession"), all.S = TRUE)
 
         if (is.null(T))
             T <<- df
@@ -129,7 +132,7 @@ DB = aggregateScores
 
 SamplesDB = aggregateScores()
 #rownames(SamplesDB)  = SamplesDB$Repository_Accession
-rownames(SamplesDB) = paste(SamplesDB$Repository_Accession, SamplesDB$Cancer_Model, sep=".")
+rownames(SamplesDB) = paste(SamplesDB$ImmPort_Study_ID, SamplesDB$Repository_Accession, SamplesDB$Cancer_Model, sep=".")
 SamplesDB$Sample_Set = paste(SamplesDB$Repository_Accession, SamplesDB$Cancer_Model, sep=".")
 StudiesDB = SamplesDB[,c("PubMed", "Cancer_Type", "Study_Title", "ImmPort_Study_ID")]
 StudiesDB$Cancer_Type = sapply(StudiesDB$Cancer_Type, simpleCap)

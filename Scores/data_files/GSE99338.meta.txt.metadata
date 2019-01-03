@@ -1,0 +1,5 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Subtype	Biosample Name	Biosample Description	Species	Strain	Cancer Type	Tissue	Cell Type	Cell Line	Treatment
+GSE99338	29634345	RNAseq analysis of wildtype and Nrf2-/- advanced lung tumors		SRX2862062	GSE99338	Lung	GSM2642287	Lung Cancer	Lung Adenocarcinoma (LUAD)	WT 1		Mus musculus	WT 1	Lung Cancer	lung tumor	None	None	None
+GSE99338	29634345	RNAseq analysis of wildtype and Nrf2-/- advanced lung tumors		SRX2862062	GSE99338	Lung	GSM2642288	Lung Cancer	Lung Adenocarcinoma (LUAD)	WT 2		Mus musculus	WT 2	Lung Cancer	lung tumor	None	None	None
+GSE99338	29634345	RNAseq analysis of wildtype and Nrf2-/- advanced lung tumors		SRX2862062	GSE99338	Lung	GSM2642289	Lung Cancer	Lung Adenocarcinoma (LUAD)	Nrf2 KO 1		Mus musculus	Nrf2 KO 1	Lung Cancer	lung tumor	None	None	None
+GSE99338	29634345	RNAseq analysis of wildtype and Nrf2-/- advanced lung tumors		SRX2862062	GSE99338	Lung	GSM2642290	Lung Cancer	Lung Adenocarcinoma (LUAD)	Nrf2 KO 2		Mus musculus	Nrf2 KO 2	Lung Cancer	lung tumor	None	None	None
