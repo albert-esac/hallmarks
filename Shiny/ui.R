@@ -49,7 +49,7 @@ function(request) {
                     )),
           tags$hr(),
           p('Sample file:',
-             a(href = 'min.txt', 'min.txt')
+             a(href = 'min.txt', target='blank', download='min.txt', 'min.txt')
           ),
 	  p("(The first column could be Human/Mouse Gene Symbols or Entrez ID)", style = "font-size:13px"),
           DT::dataTableOutput('Uploaded')

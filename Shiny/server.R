@@ -275,7 +275,15 @@ function(input, output, session) {
     ff
   }
 
-
+  addDownloadLink = function(db) {
+    ff = db
+    col = db[,"ImmPort_Study_ID"]
+    dd = sprintf("<a href='%s%s%s',  target='blank', download='%s.tmp.txt' >%s</a>", "datasets/", col, ".tmp.txt", col, col)
+    ff$ImmPort_Study_ID = dd
+    #ff = as.data.frame(ff)
+    #colnames(ff) = colnames(db)
+    ff
+  }
 
   output$DB <- DT::renderDataTable( {
     db = UserState$DB[ , displayed_columns ]
@@ -438,7 +446,8 @@ function(input, output, session) {
   })
 
     output$study <- DT::renderDataTable( { 
-        DT::datatable(StudiesDB, selection = list(selected = as.list(UserState$studies_selected)))
+	db = addDownloadLink(StudiesDB)
+        DT::datatable(db, selection = list(selected = as.list(UserState$studies_selected)), escape=FALSE )
     })
 
     output$Scored <- DT::renderDataTable( { 
@@ -531,7 +540,8 @@ function(input, output, session) {
 	initSamples()
 
 	output$study <- DT::renderDataTable({
-		DT::datatable(StudiesDB, selection = list(selected = as.list(UserState$studies_selected)))
+		db = addDownloadLink(StudiesDB)
+		DT::datatable(db, selection = list(selected = as.list(UserState$studies_selected)), escape=FALSE)
 	})
 
 	session$doBookmark()
