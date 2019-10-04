@@ -1,0 +1,12 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Subtype	Biosample Name	Biosample Description	Species	Strain	Cancer Type	Tissue	Cell Type	Cell Line	Treatment
+GSE107194	29281661	Investigate A2M treatment in liver of mice		SRX3411526	GSE107194	liver	GSM2862442	Liver Cancer	Hepatocellular Carcinoma (HCC)	Liver_123		Mus musculus	Liver_123	Liver Cancer	liver	None	None	PBS
+GSE107194	29281661	Investigate A2M treatment in liver of mice		SRX3411527	GSE107194	liver	GSM2862443	Liver Cancer	Hepatocellular Carcinoma (HCC)	Liver_124		Mus musculus	Liver_124	Liver Cancer	liver	None	None	PBS
+GSE107194	29281661	Investigate A2M treatment in liver of mice		SRX3411528	GSE107194	liver	GSM2862444	Liver Cancer	Hepatocellular Carcinoma (HCC)	Liver_125		Mus musculus	Liver_125	Liver Cancer	liver	None	None	PBS
+GSE107194	29281661	Investigate A2M treatment in liver of mice		SRX3411529	GSE107194	liver	GSM2862445	Liver Cancer	Hepatocellular Carcinoma (HCC)	Liver_126		Mus musculus	Liver_126	Liver Cancer	liver	None	None	PBS
+GSE107194	29281661	Investigate A2M treatment in liver of mice		SRX3411530	GSE107194	liver	GSM2862446	Liver Cancer	Hepatocellular Carcinoma (HCC)	Liver_127		Mus musculus	Liver_127	Liver Cancer	liver	None	None	PBS
+GSE107194	29281661	Investigate A2M treatment in liver of mice		SRX3411531	GSE107194	liver	GSM2862447	Liver Cancer	Hepatocellular Carcinoma (HCC)	Liver_128		Mus musculus	Liver_128	Liver Cancer	liver	None	None	A2M
+GSE107194	29281661	Investigate A2M treatment in liver of mice		SRX3411532	GSE107194	liver	GSM2862448	Liver Cancer	Hepatocellular Carcinoma (HCC)	Liver_129		Mus musculus	Liver_129	Liver Cancer	liver	None	None	A2M
+GSE107194	29281661	Investigate A2M treatment in liver of mice		SRX3411533	GSE107194	liver	GSM2862449	Liver Cancer	Hepatocellular Carcinoma (HCC)	Liver_130		Mus musculus	Liver_130	Liver Cancer	liver	None	None	A2M
+GSE107194	29281661	Investigate A2M treatment in liver of mice		SRX3411534	GSE107194	liver	GSM2862450	Liver Cancer	Hepatocellular Carcinoma (HCC)	Liver_131		Mus musculus	Liver_131	Liver Cancer	liver	None	None	A2M
+GSE107194	29281661	Investigate A2M treatment in liver of mice		SRX3411535	GSE107194	liver	GSM2862451	Liver Cancer	Hepatocellular Carcinoma (HCC)	Liver_132		Mus musculus	Liver_132	Liver Cancer	liver	None	None	A2M
+GSE107194	29281661	Investigate A2M treatment in liver of mice		SRX3411536	GSE107194	liver	GSM2862452	Liver Cancer	Hepatocellular Carcinoma (HCC)	Liver_112		Mus musculus	Liver_112	Liver Cancer	liver	None	None	A2M

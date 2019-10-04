@@ -80,7 +80,7 @@ simpleCap <- function(x) {
 }
 
 
-Signatures <- RJSONIO::fromJSON("../Signatures/signatures")
+Signatures <- RJSONIO::fromJSON("www/signatures")
 #Signatures <- RJSONIO::fromJSON("signatures")
 
 S = NULL
@@ -89,7 +89,7 @@ aggregateScores = function() {
     primary = function(x) {
 	cType = strsplit(x, "\\.")[[1]][2]
 	StdSet = strsplit(x, "\\.")[[1]][1]
-        df = read.table(paste0("../Scores/data_files/",x), sep="\t", header=1, as.is=TRUE)
+        df = read.table(paste0("www/score_metadata/",x), sep="\t", header=1, as.is=TRUE)
 
 	df$Cancer_Model <- cType
 	df$ImmPort.Study.ID <- StdSet
@@ -100,7 +100,7 @@ aggregateScores = function() {
         }
     }
     annotate = function(x) {
-        df = read.table(paste0("../Scores/data_files/",x), sep="\t", header=1, as.is=TRUE, fill=TRUE)
+        df = read.table(paste0("www/score_metadata/",x), sep="\t", header=1, quote = "", as.is=TRUE, fill=TRUE)
         df = merge(S, df, by = c("ImmPort.Study.ID", "Repository.Accession"), all.S = TRUE)
 
         if (is.null(T))
@@ -109,8 +109,8 @@ aggregateScores = function() {
             T <<- rbind(T, df)
     }
 
-    lapply(list.files(path = "../Scores/data_files", pattern = "*.score" ), primary)
-    lapply(list.files(path = "../Scores/data_files", pattern = "*.metadata" ), annotate)
+    lapply(list.files(path = "www/score_metadata", pattern = "*.score" ), primary)
+    lapply(list.files(path = "www/score_metadata", pattern = "*.metadata" ), annotate)
     df = as.data.frame(T)
     colnames(df) <- gsub("-", "_", colnames(df))
     colnames(df) <- gsub("\\.", "_", colnames(df))

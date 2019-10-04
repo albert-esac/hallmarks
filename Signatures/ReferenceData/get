@@ -1,4 +1,0 @@
-wget $1 -O tmp.gz
-gunzip tmp.gz
-mv tmp $2
-touch $2

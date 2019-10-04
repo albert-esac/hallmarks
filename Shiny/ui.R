@@ -1,7 +1,7 @@
 jsCode = '$(".StudyDiv").prependTo(".dt-buttons")'
 
 function(request) {
-  shinyjs::useShinyjs()
+  #shinyjs::useShinyjs()
   SelectStudy <- function()
 	div(id = "studyform",
 	    style="width:100%",

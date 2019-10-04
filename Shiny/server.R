@@ -87,7 +87,8 @@ computeSignatureScore = function(X, cancer) {
     signaturesForTissue <- Filter(function(ss) ss$cancer == cancer, Signatures$signatures)
 
     possible = as.character(row.names(X))
-    X = apply(X, 2, function(x) scale(rank.normalize(x), scale=TRUE, center=TRUE))
+    #X = apply(X, 2, function(x) scale(rank.normalize(x), scale=TRUE, center=TRUE))
+    #X = round(X, digits = 2)
 
     row.names(X) <- possible
     X <- data.frame(X)
@@ -115,10 +116,8 @@ computeSignatureScore = function(X, cancer) {
     
         XX <- t(X[genes,])
         #cat(XX);
-      
     
-    
-        raw = -XX %*% w + signature$b;
+        raw = XX %*% w + signature$b;
         #heat= XX * w + signature$b;
     
         for (j in 1:length(raw)) {
@@ -278,7 +277,7 @@ function(input, output, session) {
   addDownloadLink = function(db) {
     ff = db
     col = db[,"ImmPort_Study_ID"]
-    dd = sprintf("<a href='%s%s%s',  target='blank', download='%s.tmp.txt' >%s</a>", "datasets/", col, ".tmp.txt", col, col)
+    dd = sprintf("<a href='%s%s%s',  target='blank', download='%s.tmp.txt' >%s</a>", "www/tmp/", col, ".tmp.txt", col, col)
     ff$ImmPort_Study_ID = dd
     #ff = as.data.frame(ff)
     #colnames(ff) = colnames(db)
@@ -291,7 +290,7 @@ function(input, output, session) {
     DT::datatable(db, selection = list(selected = as.list(UserState$samples_selected)), escape=FALSE  )
   })
 
- zodiac = readPNG("Zodiac800.png")
+ zodiac = readPNG("www/Zodiac800.png")
 
  output$radarImage <- renderImage({
     # Read plot2's width and height. These are reactive values, so this
@@ -380,9 +379,9 @@ function(input, output, session) {
     }
   }
 
-  Mapgene  = read.table("geneSymbol_to_geneID.txt", header = TRUE, sep = "\t")
-  Hgenes  = read.table("HumanGeneSymbol_to_geneID.txt", header = TRUE, sep = "\t")
-  Mgenes  = read.table("MouseGeneSymbol_to_geneID.txt", header = TRUE, sep = "\t")
+  Mapgene  = read.table("www/geneSymbol_to_geneID.txt", header = TRUE, sep = "\t")
+  Hgenes  = read.table("www/HumanGeneSymbol_to_geneID.txt", header = TRUE, sep = "\t")
+  Mgenes  = read.table("www/MouseGeneSymbol_to_geneID.txt", header = TRUE, sep = "\t")
   observeEvent( input$file1,  {
     # input$file1 will be NULL initially. After the user selects
     # and uploads a file, it will be a data frame with 'name',
@@ -411,38 +410,58 @@ function(input, output, session) {
     genename <- as.character(d[,1])
     GeneID <- as.character(with(Mapgene, geneID[match(genename,gene)]))
     d <- cbind(GeneID,d)
+
     #remove non-value Gene ID
     d <- subset(d, GeneID != "NA")
     d <- subset(d, select = -c(gene_id))
 
     if ( any(d[2:nrow(d),2:ncol(d)] > 1000) ) {
-      #it appears to be raw counts
-        d = d %>% group_by(GeneID) %>% summarise_all(funs(sum))
+        #it appears to be raw counts
+        d = d %>% group_by(GeneID) %>% summarise_all(list(sum))
+	geneids <- as.character(d$GeneID)
+	dm <- subset(d, select = -c(GeneID))
+	# normalize samples and correct for differences in gene count distribution
+	dm <- data.matrix(dm)
+	dm <- log2(dm+1)
+	dm = apply(dm, 2, function(x) scale(rank.normalize(x), scale=TRUE, center=TRUE))
+	dm = round(dm, digits = 2)
+	dm <- as.data.frame(dm)
+	dm = cbind(GeneID = geneids, dm)
         e = "Aggregating duplicate rows by summing counts"
+
     } else if ( all(d[2:nrow(d),2:ncol(d)] >= 0 & d[2:nrow(d),2:ncol(d)] <= 20) ) {
       #it appears to be normalized log in some way
-        d = d %>% group_by(GeneID) %>% summarise_all(funs(geometric_mean))
+        dm = d %>% group_by(GeneID) %>% summarise_all(list(geometric_mean))
         e = "Aggregating duplicate rows by geometric mean averaging"
 
     } else {
-        d = d %>% group_by(GeneID) %>% summarise_all(funs(mean))
+        d = d %>% group_by(GeneID) %>% summarise_all(list(mean))
+        geneids <- as.character(d$GeneID)
+        dm <- subset(d, select = -c(GeneID))
+        # normalize samples and correct for differences in gene count distribution
+        dm <- data.matrix(dm)
+        dm <- log2(dm+1)
+        dm = apply(dm, 2, function(x) scale(rank.normalize(x), scale=TRUE, center=TRUE))
+        dm = round(dm, digits = 2)
+	dm <- as.data.frame(dm)
+        dm = cbind(GeneID = geneids, dm)
         e = "Aggregating duplicate rows by averaging"
     }
     #upload table output
-    din = as.data.frame(d)
+    din = as.data.frame(dm)
     rownames(din) <- as.character(din[,1])
     din[,1] <- NULL
     UserState$uploaded = din
 
-    gid = as.character(d$GeneID)
+    gid = as.character(dm$GeneID)
     HGene <- as.character(with(Hgenes, gene[match(gid,geneID)]))
     MGene <- as.character(with(Mgenes, gene[match(gid,geneID)]))
-    dout <- cbind(MGene,HGene,d)
+    dout <- cbind(MGene,HGene,dm)
     dout = as.data.frame(dout)
     rownames(dout) <- as.character(dout[,3])
     dout[,3] <- NULL
     UserState$uploadedout = dout
-    output$Uploaded <- DT::renderDataTable( { DT::datatable(UserState$uploadedout, options = list( pageLength = 10), colnames = c('geneID' = 1, 'Mouse_gene' = 2, 'Human_gene' = 3)) })
+    output$Uploaded <- DT::renderDataTable( { DT::datatable(UserState$uploadedout, options = list( pageLength = 10), colnames = c('gene ID' = 1, 'Mouse gene' = 2, 'Human gene' = 3)) })
   })
 
     output$study <- DT::renderDataTable( { 
