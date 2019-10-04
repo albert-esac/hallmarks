@@ -1,0 +1,2 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE40218	22988074	Gene expression changes in a tumor xenograft by a pyrrole-imidazole polyamide.	Dervan	SRX179409	GSE40218	control_A549	GSM988513	None	control_A549	A549 nonsmall lung cancer cell line;processed data file: NA	Human	control_A549	Lung_Adenocarcinoma

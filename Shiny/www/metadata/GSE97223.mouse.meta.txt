@@ -1,0 +1,12 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE97223	29490280	GNA11 Q209L Mouse Model Reveals RasGRP3 as an Essential Signaling Node in UvealMelanoma.	None	SRX2692923	GSE97223	GNA11 Q209L	GSM2559908	None	BG2378	None	Mouse	BG2378	Skin_Cutaneous_Melanoma
+GSE97223	29490280	GNA11 Q209L Mouse Model Reveals RasGRP3 as an Essential Signaling Node in UvealMelanoma.	None	SRX2692924	GSE97223	GNA11 Q209L	GSM2559909	None	BG2407	None	Mouse	BG2407	Skin_Cutaneous_Melanoma
+GSE97223	29490280	GNA11 Q209L Mouse Model Reveals RasGRP3 as an Essential Signaling Node in UvealMelanoma.	None	SRX2692925	GSE97223	GNA11 Q209L Bap1 KO	GSM2559910	None	BG2218_T1	None	Mouse	BG2218_T1	Skin_Cutaneous_Melanoma
+GSE97223	29490280	GNA11 Q209L Mouse Model Reveals RasGRP3 as an Essential Signaling Node in UvealMelanoma.	None	SRX2692926	GSE97223	GNA11 Q209L Bap1 KO	GSM2559911	None	BG2218_T3	None	Mouse	BG2218_T3	Skin_Cutaneous_Melanoma
+GSE97223	29490280	GNA11 Q209L Mouse Model Reveals RasGRP3 as an Essential Signaling Node in UvealMelanoma.	None	SRX2692927	GSE97223	GNA11 Q209L Bap1 KO	GSM2559912	None	BG2264	None	Mouse	BG2264	Skin_Cutaneous_Melanoma
+GSE97223	29490280	GNA11 Q209L Mouse Model Reveals RasGRP3 as an Essential Signaling Node in UvealMelanoma.	None	SRX2692928	GSE97223	GNA11 Q209L Bap1 KO	GSM2559913	None	BG2299	None	Mouse	BG2299	Skin_Cutaneous_Melanoma
+GSE97223	29490280	GNA11 Q209L Mouse Model Reveals RasGRP3 as an Essential Signaling Node in UvealMelanoma.	None	SRX2692929	GSE97223	GNA11 Q209L Bap1 KO	GSM2559914	None	TGB 609	None	Mouse	TGB 609	Skin_Cutaneous_Melanoma
+GSE97223	29490280	GNA11 Q209L Mouse Model Reveals RasGRP3 as an Essential Signaling Node in UvealMelanoma.	None	SRX2692930	GSE97223	BRAF V600E Bap1 KO	GSM2559915	None	BB2310	None	Mouse	BB2310	Skin_Cutaneous_Melanoma
+GSE97223	29490280	GNA11 Q209L Mouse Model Reveals RasGRP3 as an Essential Signaling Node in UvealMelanoma.	None	SRX2692931	GSE97223	BRAF V600E Bap1 KO	GSM2559916	None	BB2306	None	Mouse	BB2306	Skin_Cutaneous_Melanoma
+GSE97223	29490280	GNA11 Q209L Mouse Model Reveals RasGRP3 as an Essential Signaling Node in UvealMelanoma.	None	SRX2692932	GSE97223	BRAF V600E Bap1 KO	GSM2559917	None	BB2145	None	Mouse	BB2145	Skin_Cutaneous_Melanoma
+GSE97223	29490280	GNA11 Q209L Mouse Model Reveals RasGRP3 as an Essential Signaling Node in UvealMelanoma.	None	SRX2692933	GSE97223	BRAF V600E Bap1 KO	GSM2559918	None	BB2309	None	Mouse	BB2309	Skin_Cutaneous_Melanoma

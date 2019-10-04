@@ -1,0 +1,3 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE43988	25415230	The oestrogen receptor alpha-regulated lncRNA NEAT1 is a critical modulator ofprostate cancer.	BB 1450	SRX222269	GSE43988	MEF cell line	GSM1076115	None	MEF NEAT1 KO [RNA-Seq]	poly-A+ RNA-sequencing	Mouse	MEF NEAT1 KO [RNA-Seq]	Prostate_Adenocarcinoma
+GSE43988	25415230	The oestrogen receptor alpha-regulated lncRNA NEAT1 is a critical modulator ofprostate cancer.	BB 1450	SRX222268	GSE43988	MEF cell line	GSM1076114	None	MEF WT [RNA-Seq]	poly-A+ RNA-sequencing	Mouse	MEF WT [RNA-Seq]	Prostate_Adenocarcinoma

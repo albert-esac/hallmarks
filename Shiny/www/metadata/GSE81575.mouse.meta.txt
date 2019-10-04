@@ -1,0 +1,5 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE81575	27280691	The Chromatin Remodeling Component Arid1a Is a Suppressor of Spontaneous Mammary Tumors in Mice.	None	SRX1771657	GSE81575	High Arid1a_mammary tumor cells	GSM2157516	None	AB-C2	High Arid1a	Mouse	AB-C2	Breast_Invasive_Carcinoma_female
+GSE81575	27280691	The Chromatin Remodeling Component Arid1a Is a Suppressor of Spontaneous Mammary Tumors in Mice.	None	SRX1771656	GSE81575	High Arid1a_mammary tumor cells	GSM2157515	None	AB-C1	High Arid1a	Mouse	AB-C1	Breast_Invasive_Carcinoma_female
+GSE81575	27280691	The Chromatin Remodeling Component Arid1a Is a Suppressor of Spontaneous Mammary Tumors in Mice.	None	SRX1771655	GSE81575	Low Arid1a_mammary tumor cells	GSM2157514	None	UT-R2	Low Arid1a	Mouse	UT-R2	Breast_Invasive_Carcinoma_female
+GSE81575	27280691	The Chromatin Remodeling Component Arid1a Is a Suppressor of Spontaneous Mammary Tumors in Mice.	None	SRX1771654	GSE81575	Low Arid1a_mammary tumor cells	GSM2157513	None	UT-R1	Low Arid1a	Mouse	UT-R1	Breast_Invasive_Carcinoma_female

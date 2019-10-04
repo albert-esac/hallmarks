@@ -1,0 +1,5 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE94566	29017057	A p53 Super-tumor Suppressor Reveals a Tumor Suppressive p53-Ptpn14-Yap Axis inPancreatic Cancer.	Attardi lab	SRX2540532	GSE94566	p53 wt_PanIN cells	GSM2478367	None	p53 wt rep1	p53wt1	Mouse	p53 wt rep1	Pancreatic_Adenocarcinoma
+GSE94566	29017057	A p53 Super-tumor Suppressor Reveals a Tumor Suppressive p53-Ptpn14-Yap Axis inPancreatic Cancer.	Attardi lab	SRX2540533	GSE94566	p53 wt_PanIN cells	GSM2478368	None	p53 wt rep2	p53wt2	Mouse	p53 wt rep2	Pancreatic_Adenocarcinoma
+GSE94566	29017057	A p53 Super-tumor Suppressor Reveals a Tumor Suppressive p53-Ptpn14-Yap Axis inPancreatic Cancer.	Attardi lab	SRX2540534	GSE94566	p53 null_PanIN cells	GSM2478369	None	p53 null rep1	p53ko1	Mouse	p53 null rep1	Pancreatic_Adenocarcinoma
+GSE94566	29017057	A p53 Super-tumor Suppressor Reveals a Tumor Suppressive p53-Ptpn14-Yap Axis inPancreatic Cancer.	Attardi lab	SRX2540535	GSE94566	p53 null_PanIN cells	GSM2478370	None	p53 null rep2	p53ko2	Mouse	p53 null rep2	Pancreatic_Adenocarcinoma

@@ -1,0 +1,5 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE104821	29669762	YAP/TAZ Initiates Gastric Tumorigenesis via Upregulation of MYC.	None	SRX3270421	GSE104821	Pyloric epithelium	GSM2808416	None	WT 1	None	Mouse	WT 1	Stomach_Adenocarcinoma
+GSE104821	29669762	YAP/TAZ Initiates Gastric Tumorigenesis via Upregulation of MYC.	None	SRX3270422	GSE104821	Pyloric epithelium	GSM2808417	None	WT 2	None	Mouse	WT 2	Stomach_Adenocarcinoma
+GSE104821	29669762	YAP/TAZ Initiates Gastric Tumorigenesis via Upregulation of MYC.	None	SRX3270423	GSE104821	Pyloric epithelium	GSM2808418	None	Lats1/2iΔLgr5 1	None	Mouse	Lats1/2iΔLgr5 1	Stomach_Adenocarcinoma
+GSE104821	29669762	YAP/TAZ Initiates Gastric Tumorigenesis via Upregulation of MYC.	None	SRX3270424	GSE104821	Pyloric epithelium	GSM2808419	None	Lats1/2iΔLgr5 2	None	Mouse	Lats1/2iΔLgr5 2	Stomach_Adenocarcinoma

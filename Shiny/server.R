@@ -40,9 +40,9 @@ hallmark_columns = c(
 displayed_columns  = c(
     "Hallmark",
     "Biosample_ID",
-    #"Biosample_Description",
-    #"Type",
-    "Subtype",
+    "Biosample_Description",
+    "Type",
+    #"Subtype",
     "Species",
     #"Study_Title",
     #"PI",
@@ -52,14 +52,14 @@ displayed_columns  = c(
     "Cohort",
     "Repository_Accession",
     #"Sample_Set",
-    #"Biosample_Name",
+    "Biosample_Name",
     "Strain",
     "Cancer_Type",
     "Cancer_Model",
-    "Tissue",
-    "Cell_Type",
-    "Cell_Line",
-    "Treatment",
+    #"Tissue",
+    #"Cell_Type",
+    #"Cell_Line",
+    #"Treatment",
     "Evading_growth_suppressors",
     "Evading_immune_destruction",
     "Genome_instability",
@@ -159,16 +159,16 @@ computeSignatureScore = function(X, cancer) {
 	Biosample_Name = rep( "none", n),
 	Biosample_Description = rep( "none", n),
 	Tissue = rep( "none", n),
-    Cell_Type = rep( "none", n),
-    Cell_Line = rep( "none", n),
-    Treatment = rep( "none", n),
+    #Cell_Type = rep( "none", n),
+    #Cell_Line = rep( "none", n),
+    #Treatment = rep( "none", n),
 	Strain = rep( "none", n),
 	Sample_Set = paste(colnames(X), rep( simpleCap(signature$cancer), n), sep="."),
 	stringsAsFactors=FALSE
     );
 
     scores = cbind(scores, df)
-    scores = scores[,c("Repository_Accession", "Hallmark", "Evading_growth_suppressors", "Evading_immune_destruction", "Genome_instability", "Replicative_immortality", "Reprogramming_energy_metabolism", "Resisting_cell_death", "Sustained_angiogenesis", "Sustaining_proliferative_signaling", "Tissue_invasion_and_metastasis", "Tumor_promoting_inflammation", "Cancer_Model", "ImmPort_Study_ID", "PubMed", "Study_Title", "PI", "Biosample_ID", "Experiment_ID", "Cohort", "Type", "Subtype", "Biosample_Name", "Biosample_Description", "Species", "Strain", "Cancer_Type", "Tissue", "Cell_Type", "Cell_Line", "Treatment", "Sample_Set")]
+    scores = scores[,c("Repository_Accession", "Hallmark", "Evading_growth_suppressors", "Evading_immune_destruction", "Genome_instability", "Replicative_immortality", "Reprogramming_energy_metabolism", "Resisting_cell_death", "Sustained_angiogenesis", "Sustaining_proliferative_signaling", "Tissue_invasion_and_metastasis", "Tumor_promoting_inflammation", "Cancer_Model", "ImmPort_Study_ID", "PubMed", "Study_Title", "PI", "Biosample_ID", "Experiment_ID", "Cohort", "Type", "Biosample_Name", "Biosample_Description", "Species", "Strain", "Cancer_Type", "Sample_Set")]
 
     return (scores)
 }

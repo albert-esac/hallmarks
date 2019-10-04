@@ -1,0 +1,10 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE56175	24954536	KRAS and YAP1 converge to regulate EMT and tumor survival.	None	SRX501065	GSE56175	KP-KrasA cells_day 0	GSM1357142	None	KrasMD0	Sample 3	Mouse	KrasMD0	Lung_Adenocarcinoma
+GSE56175	24954536	KRAS and YAP1 converge to regulate EMT and tumor survival.	None	SRX501069	GSE56175	KP-KrasA cells_day 21	GSM1357146	None	KrasAD21	Sample 7	Mouse	KrasAD21	Lung_Adenocarcinoma
+GSE56175	24954536	KRAS and YAP1 converge to regulate EMT and tumor survival.	None	SRX501066	GSE56175	KP-KrasA cells_day 4	GSM1357143	None	KrasAD4	Sample 4	Mouse	KrasAD4	Lung_Adenocarcinoma
+GSE56175	24954536	KRAS and YAP1 converge to regulate EMT and tumor survival.	None	SRX501070	GSE56175	KP-KrasA cells_day 21	GSM1357147	None	KrasGD21	Sample 8	Mouse	KrasGD21	Lung_Adenocarcinoma
+GSE56175	24954536	KRAS and YAP1 converge to regulate EMT and tumor survival.	None	SRX501067	GSE56175	KP-KrasA cells_day 4	GSM1357144	None	KrasGD4	Sample 5	Mouse	KrasGD4	Lung_Adenocarcinoma
+GSE56175	24954536	KRAS and YAP1 converge to regulate EMT and tumor survival.	None	SRX501071	GSE56175	KP-KrasA cells_day 21	GSM1357148	None	KrasMD21	Sample 9	Mouse	KrasMD21	Lung_Adenocarcinoma
+GSE56175	24954536	KRAS and YAP1 converge to regulate EMT and tumor survival.	None	SRX501064	GSE56175	KP-KrasA cells_day 0	GSM1357141	None	KrasGD0	Sample 2	Mouse	KrasGD0	Lung_Adenocarcinoma
+GSE56175	24954536	KRAS and YAP1 converge to regulate EMT and tumor survival.	None	SRX501063	GSE56175	KP-KrasA cells_day 0	GSM1357140	None	KrasAD0	Sample 1	Mouse	KrasAD0	Lung_Adenocarcinoma
+GSE56175	24954536	KRAS and YAP1 converge to regulate EMT and tumor survival.	None	SRX501068	GSE56175	KP-KrasA cells_day 4	GSM1357145	None	KrasMD4	Sample 6	Mouse	KrasMD4	Lung_Adenocarcinoma

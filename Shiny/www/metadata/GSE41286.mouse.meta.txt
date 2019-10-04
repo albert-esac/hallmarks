@@ -1,0 +1,3 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE41286	24497069	Targeting unique metabolic properties of breast tumor initiating cells.	None	SRX190868	GSE41286	non-tumorigenic cells (NTCs)	GSM1013600	None	NTC RNA-seq	Non-tumorigenic cells	Mouse	NTC RNA-seq	Breast_Invasive_Carcinoma_female
+GSE41286	24497069	Targeting unique metabolic properties of breast tumor initiating cells.	None	SRX190867	GSE41286	breast tumor initiating cells (TICs)	GSM1013599	None	TIC RNA-seq	Tumor initiating cells	Mouse	TIC RNA-seq	Breast_Invasive_Carcinoma_female

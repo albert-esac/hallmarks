@@ -1,0 +1,5 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE99338	29634345	Identification of an Unfavorable Immune Signature in Advanced Lung Tumors fromNrf2-Deficient Mice.	None	SRX2862058	GSE99338	Lung	GSM2642287	None	WT 1	None	Mouse	WT 1	Lung_Adenocarcinoma
+GSE99338	29634345	Identification of an Unfavorable Immune Signature in Advanced Lung Tumors fromNrf2-Deficient Mice.	None	SRX2862060	GSE99338	Lung	GSM2642288	None	WT 2	None	Mouse	WT 2	Lung_Adenocarcinoma
+GSE99338	29634345	Identification of an Unfavorable Immune Signature in Advanced Lung Tumors fromNrf2-Deficient Mice.	None	SRX2862061	GSE99338	Lung	GSM2642289	None	Nrf2 KO 1	None	Mouse	Nrf2 KO 1	Lung_Adenocarcinoma
+GSE99338	29634345	Identification of an Unfavorable Immune Signature in Advanced Lung Tumors fromNrf2-Deficient Mice.	None	SRX2862062	GSE99338	Lung	GSM2642290	None	Nrf2 KO 2	None	Mouse	Nrf2 KO 2	Lung_Adenocarcinoma

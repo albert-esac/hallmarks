@@ -1,0 +1,12 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE107195	29281661	The anti-tumorigenic activity of A2M-A lesson from the naked mole-rat.	None	SRX3411526	GSE107195	liver	GSM2862442	None	Liver_123	None	Mouse	Liver_123	Liver_Hepatocellular_Carcinoma
+GSE107195	29281661	The anti-tumorigenic activity of A2M-A lesson from the naked mole-rat.	None	SRX3411527	GSE107195	liver	GSM2862443	None	Liver_124	None	Mouse	Liver_124	Liver_Hepatocellular_Carcinoma
+GSE107195	29281661	The anti-tumorigenic activity of A2M-A lesson from the naked mole-rat.	None	SRX3411528	GSE107195	liver	GSM2862444	None	Liver_125	None	Mouse	Liver_125	Liver_Hepatocellular_Carcinoma
+GSE107195	29281661	The anti-tumorigenic activity of A2M-A lesson from the naked mole-rat.	None	SRX3411529	GSE107195	liver	GSM2862445	None	Liver_126	None	Mouse	Liver_126	Liver_Hepatocellular_Carcinoma
+GSE107195	29281661	The anti-tumorigenic activity of A2M-A lesson from the naked mole-rat.	None	SRX3411530	GSE107195	liver	GSM2862446	None	Liver_127	None	Mouse	Liver_127	Liver_Hepatocellular_Carcinoma
+GSE107195	29281661	The anti-tumorigenic activity of A2M-A lesson from the naked mole-rat.	None	SRX3411531	GSE107195	liver	GSM2862447	None	Liver_128	None	Mouse	Liver_128	Liver_Hepatocellular_Carcinoma
+GSE107195	29281661	The anti-tumorigenic activity of A2M-A lesson from the naked mole-rat.	None	SRX3411532	GSE107195	liver	GSM2862448	None	Liver_129	None	Mouse	Liver_129	Liver_Hepatocellular_Carcinoma
+GSE107195	29281661	The anti-tumorigenic activity of A2M-A lesson from the naked mole-rat.	None	SRX3411533	GSE107195	liver	GSM2862449	None	Liver_130	None	Mouse	Liver_130	Liver_Hepatocellular_Carcinoma
+GSE107195	29281661	The anti-tumorigenic activity of A2M-A lesson from the naked mole-rat.	None	SRX3411534	GSE107195	liver	GSM2862450	None	Liver_131	None	Mouse	Liver_131	Liver_Hepatocellular_Carcinoma
+GSE107195	29281661	The anti-tumorigenic activity of A2M-A lesson from the naked mole-rat.	None	SRX3411535	GSE107195	liver	GSM2862451	None	Liver_132	None	Mouse	Liver_132	Liver_Hepatocellular_Carcinoma
+GSE107195	29281661	The anti-tumorigenic activity of A2M-A lesson from the naked mole-rat.	None	SRX3411536	GSE107195	liver	GSM2862452	None	Liver_112	None	Mouse	Liver_112	Liver_Hepatocellular_Carcinoma

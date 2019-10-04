@@ -1,0 +1,2 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE98760	29276153	Histone 2B-GFP Label-Retaining Prostate Luminal Cells Possess Progenitor CellProperties and Are Intrinsically Resistant to Castration.	Tang lab	SRX2794575	GSE98760	Freshly purified mouse luminal non-label-retaining cells	GSM2611337	None	L-GFP-	None	Mouse	L-GFP-	Prostate_Adenocarcinoma

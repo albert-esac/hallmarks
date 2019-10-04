@@ -1,0 +1,10 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE86144	27799657	LKB1 loss links serine metabolism to DNA methylation and tumorigenesis.	Meissner Lab	SRX2059542	GSE86144	KRASG12D/+ (K) 2	GSM2295842	None	K2_rep_1	None	Mouse	K2_rep_1	Pancreatic_Adenocarcinoma
+GSE86144	27799657	LKB1 loss links serine metabolism to DNA methylation and tumorigenesis.	Meissner Lab	SRX2059547	GSE86144	KRASG12D/+;LKB1-/- (KL) 2	GSM2295847	None	KL2_rep_2	None	Mouse	KL2_rep_2	Pancreatic_Adenocarcinoma
+GSE86144	27799657	LKB1 loss links serine metabolism to DNA methylation and tumorigenesis.	Meissner Lab	SRX2059541	GSE86144	KRASG12D/+ (K) 1	GSM2295841	None	K1	None	Mouse	K1	Pancreatic_Adenocarcinoma
+GSE86144	27799657	LKB1 loss links serine metabolism to DNA methylation and tumorigenesis.	Meissner Lab	SRX2059544	GSE86144	KRASG12D/+;LKB1-/- (KL) 1	GSM2295844	None	KL1_rep_1	None	Mouse	KL1_rep_1	Pancreatic_Adenocarcinoma
+GSE86144	27799657	LKB1 loss links serine metabolism to DNA methylation and tumorigenesis.	Meissner Lab	SRX2059548	GSE86144	KL1_LKB1_cDNA	GSM2295848	None	KL1_LKB1_cDNA	None	Mouse	KL1_LKB1_cDNA	Pancreatic_Adenocarcinoma
+GSE86144	27799657	LKB1 loss links serine metabolism to DNA methylation and tumorigenesis.	Meissner Lab	SRX2059546	GSE86144	KRASG12D/+;LKB1-/- (KL) 2	GSM2295846	None	KL2_rep_1	None	Mouse	KL2_rep_1	Pancreatic_Adenocarcinoma
+GSE86144	27799657	LKB1 loss links serine metabolism to DNA methylation and tumorigenesis.	Meissner Lab	SRX2059549	GSE86144	KL2_LKB1_cDNA	GSM2295849	None	KL2_LKB1_cDNA	None	Mouse	KL2_LKB1_cDNA	Pancreatic_Adenocarcinoma
+GSE86144	27799657	LKB1 loss links serine metabolism to DNA methylation and tumorigenesis.	Meissner Lab	SRX2059543	GSE86144	KRASG12D/+ (K) 2	GSM2295843	None	K2_rep_2	None	Mouse	K2_rep_2	Pancreatic_Adenocarcinoma
+GSE86144	27799657	LKB1 loss links serine metabolism to DNA methylation and tumorigenesis.	Meissner Lab	SRX2059545	GSE86144	KRASG12D/+;LKB1-/- (KL) 1	GSM2295845	None	KL1_rep_2	None	Mouse	KL1_rep_2	Pancreatic_Adenocarcinoma

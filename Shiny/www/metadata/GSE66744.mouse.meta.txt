@@ -1,0 +1,2 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE66744	26265142	Decoding breast cancer tissue-stroma interactions using species-specificsequencing.	Rickard Sandberg's group (rickard.sandberg@ki.se)  (2008-2014); Rheumatology unit (2014-)	SRX950750	GSE66744	left 4th mammary gland, cleared	GSM1631332	None	Left_Mammary_Gland_4_NOD-SCID	None	Mouse	Left_Mammary_Gland_4_NOD-SCID	Breast_Invasive_Carcinoma_female

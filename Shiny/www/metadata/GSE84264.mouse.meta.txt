@@ -1,0 +1,4 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE84264	27589875	Response to Programmed Cell Death-1 Blockade in a Murine Melanoma Syngeneic ModelRequires Costimulation, CD4, and CD8 T Cells.	Thomas Graeber	SRX1925785	GSE84264	Melanoma cell line	GSM2230612	None	YUMM2.1	None	Mouse	YUMM2.1	Skin_Cutaneous_Melanoma
+GSE84264	27589875	Response to Programmed Cell Death-1 Blockade in a Murine Melanoma Syngeneic ModelRequires Costimulation, CD4, and CD8 T Cells.	Thomas Graeber	SRX1925784	GSE84264	Melanoma cell line	GSM2230611	None	YUMM1.1	None	Mouse	YUMM1.1	Skin_Cutaneous_Melanoma
+GSE84264	27589875	Response to Programmed Cell Death-1 Blockade in a Murine Melanoma Syngeneic ModelRequires Costimulation, CD4, and CD8 T Cells.	Thomas Graeber	SRX1925786	GSE84264	Melanoma cell line	GSM2230613	None	YUMM1.7	None	Mouse	YUMM1.7	Skin_Cutaneous_Melanoma

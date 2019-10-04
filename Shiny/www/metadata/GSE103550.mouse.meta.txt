@@ -1,0 +1,9 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE103550	29366785	1alpha,25-dihydroxyvitamin D3 mitigates cancer cell mediated mitochondrialdysfunction in human skeletal muscle cells.	None	SRX3163921	GSE103550	ATCC	GSM2773449	None	LLC1	None	Mouse	LLC1	Lung_Adenocarcinoma
+GSE103550	29366785	1alpha,25-dihydroxyvitamin D3 mitigates cancer cell mediated mitochondrialdysfunction in human skeletal muscle cells.	None	SRX3163922	GSE103550	ATCC	GSM2773450	None	LLC2	None	Mouse	LLC2	Lung_Adenocarcinoma
+GSE103550	29366785	1alpha,25-dihydroxyvitamin D3 mitigates cancer cell mediated mitochondrialdysfunction in human skeletal muscle cells.	None	SRX3163923	GSE103550	ATCC	GSM2773451	None	LLC3	None	Mouse	LLC3	Lung_Adenocarcinoma
+GSE103550	29366785	1alpha,25-dihydroxyvitamin D3 mitigates cancer cell mediated mitochondrialdysfunction in human skeletal muscle cells.	None	SRX3163924	GSE103550	ATCC	GSM2773452	None	LLC4	None	Mouse	LLC4	Lung_Adenocarcinoma
+GSE103550	29366785	1alpha,25-dihydroxyvitamin D3 mitigates cancer cell mediated mitochondrialdysfunction in human skeletal muscle cells.	None	SRX3163925	GSE103550	ATCC	GSM2773453	None	MLE1	None	Mouse	MLE1	Lung_Adenocarcinoma
+GSE103550	29366785	1alpha,25-dihydroxyvitamin D3 mitigates cancer cell mediated mitochondrialdysfunction in human skeletal muscle cells.	None	SRX3163926	GSE103550	ATCC	GSM2773454	None	MLE2	None	Mouse	MLE2	Lung_Adenocarcinoma
+GSE103550	29366785	1alpha,25-dihydroxyvitamin D3 mitigates cancer cell mediated mitochondrialdysfunction in human skeletal muscle cells.	None	SRX3163927	GSE103550	ATCC	GSM2773455	None	MLE3	None	Mouse	MLE3	Lung_Adenocarcinoma
+GSE103550	29366785	1alpha,25-dihydroxyvitamin D3 mitigates cancer cell mediated mitochondrialdysfunction in human skeletal muscle cells.	None	SRX3163928	GSE103550	ATCC	GSM2773456	None	MLE4	None	Mouse	MLE4	Lung_Adenocarcinoma

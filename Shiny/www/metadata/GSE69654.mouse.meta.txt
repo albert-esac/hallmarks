@@ -1,0 +1,9 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE69654	26982726	Deletions linked to TP53 loss drive cancer through p53-independent mechanisms.	None	SRX1053437	GSE69654	acute myeloid cells	GSM1705359	None	11B3fl/p53fl rep3	None	Mouse	11B3fl/p53fl rep3	Acute_Myeloid_Leukemia
+GSE69654	26982726	Deletions linked to TP53 loss drive cancer through p53-independent mechanisms.	None	SRX1053435	GSE69654	acute myeloid cells	GSM1705357	None	11B3fl/p53fl rep1	None	Mouse	11B3fl/p53fl rep1	Acute_Myeloid_Leukemia
+GSE69654	26982726	Deletions linked to TP53 loss drive cancer through p53-independent mechanisms.	None	SRX1053436	GSE69654	acute myeloid cells	GSM1705358	None	11B3fl/p53fl rep2	None	Mouse	11B3fl/p53fl rep2	Acute_Myeloid_Leukemia
+GSE69654	26982726	Deletions linked to TP53 loss drive cancer through p53-independent mechanisms.	None	SRX1053440	GSE69654	acute myeloid cells	GSM1705362	None	p53fl/fl rep2	None	Mouse	p53fl/fl rep2	Acute_Myeloid_Leukemia
+GSE69654	26982726	Deletions linked to TP53 loss drive cancer through p53-independent mechanisms.	None	SRX1053438	GSE69654	acute myeloid cells	GSM1705360	None	11B3fl/p53fl rep4	None	Mouse	11B3fl/p53fl rep4	Acute_Myeloid_Leukemia
+GSE69654	26982726	Deletions linked to TP53 loss drive cancer through p53-independent mechanisms.	None	SRX1053442	GSE69654	acute myeloid cells	GSM1705364	None	p53fl/fl rep4	None	Mouse	p53fl/fl rep4	Acute_Myeloid_Leukemia
+GSE69654	26982726	Deletions linked to TP53 loss drive cancer through p53-independent mechanisms.	None	SRX1053441	GSE69654	acute myeloid cells	GSM1705363	None	p53fl/fl rep3	None	Mouse	p53fl/fl rep3	Acute_Myeloid_Leukemia
+GSE69654	26982726	Deletions linked to TP53 loss drive cancer through p53-independent mechanisms.	None	SRX1053439	GSE69654	acute myeloid cells	GSM1705361	None	p53fl/fl rep1	None	Mouse	p53fl/fl rep1	Acute_Myeloid_Leukemia

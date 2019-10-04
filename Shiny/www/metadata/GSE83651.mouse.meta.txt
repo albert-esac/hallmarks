@@ -1,0 +1,5 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE83651	28614298	ERF mutations reveal a balance of ETS factors controlling prostate oncogenesis.	None	SRX1872780	GSE83651	murine Pten+/+ prostate organoids	GSM2211804	None	s_2m6_B	None	Mouse	s_2m6_B	Prostate_Adenocarcinoma
+GSE83651	28614298	ERF mutations reveal a balance of ETS factors controlling prostate oncogenesis.	None	SRX1872782	GSE83651	murine Pten+/+ prostate organoids	GSM2211806	None	s_2m12_D	None	Mouse	s_2m12_D	Prostate_Adenocarcinoma
+GSE83651	28614298	ERF mutations reveal a balance of ETS factors controlling prostate oncogenesis.	None	SRX1872779	GSE83651	murine Pten+/+ prostate organoids	GSM2211803	None	s_2m5_B	None	Mouse	s_2m5_B	Prostate_Adenocarcinoma
+GSE83651	28614298	ERF mutations reveal a balance of ETS factors controlling prostate oncogenesis.	None	SRX1872781	GSE83651	murine Pten+/+ prostate organoids	GSM2211805	None	s_2m11_D	None	Mouse	s_2m11_D	Prostate_Adenocarcinoma

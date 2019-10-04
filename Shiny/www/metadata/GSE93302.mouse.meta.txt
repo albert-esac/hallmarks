@@ -1,0 +1,7 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE93302	29632194	In vivo CRISPR screening unveils histone demethylase UTX as an importantepigenetic regulator in lung tumorigenesis.	None	SRX2480222	GSE93302	Lung	GSM2450589	None	J2171T1	Lung tumor	Mouse	J2171T1	Lung_Adenocarcinoma
+GSE93302	29632194	In vivo CRISPR screening unveils histone demethylase UTX as an importantepigenetic regulator in lung tumorigenesis.	None	SRX2480223	GSE93302	Lung	GSM2450590	None	J2171T2	Lung tumor	Mouse	J2171T2	Lung_Adenocarcinoma
+GSE93302	29632194	In vivo CRISPR screening unveils histone demethylase UTX as an importantepigenetic regulator in lung tumorigenesis.	None	SRX2480224	GSE93302	Lung	GSM2450591	None	J1836T1	Lung tumor	Mouse	J1836T1	Lung_Adenocarcinoma
+GSE93302	29632194	In vivo CRISPR screening unveils histone demethylase UTX as an importantepigenetic regulator in lung tumorigenesis.	None	SRX2480225	GSE93302	Lung	GSM2450592	None	J1967T1	Lung tumor	Mouse	J1967T1	Lung_Adenocarcinoma
+GSE93302	29632194	In vivo CRISPR screening unveils histone demethylase UTX as an importantepigenetic regulator in lung tumorigenesis.	None	SRX2480226	GSE93302	Lung	GSM2450593	None	J1985T1	Lung tumor	Mouse	J1985T1	Lung_Adenocarcinoma
+GSE93302	29632194	In vivo CRISPR screening unveils histone demethylase UTX as an importantepigenetic regulator in lung tumorigenesis.	None	SRX2480227	GSE93302	Lung	GSM2450594	None	J1988T1	Lung tumor	Mouse	J1988T1	Lung_Adenocarcinoma

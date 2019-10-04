@@ -1,0 +1,20 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761182	GSE63348	3D organoid cell line	GSM1546449	None	mN12	None	Mouse	mN12	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761184	GSE63348	3D organoid cell line	GSM1546451	None	mP1	None	Mouse	mP1	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761185	GSE63348	3D organoid cell line	GSM1546452	None	mP2	None	Mouse	mP2	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761193	GSE63348	3D organoid cell line	GSM1546460	None	mT7	None	Mouse	mT7	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761177	GSE63348	3D organoid cell line	GSM1546444	None	mN5	None	Mouse	mN5	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761183	GSE63348	3D organoid cell line	GSM1546450	None	mN13	None	Mouse	mN13	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761191	GSE63348	3D organoid cell line	GSM1546458	None	mT4	None	Mouse	mT4	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761187	GSE63348	3D organoid cell line	GSM1546454	None	mP4	None	Mouse	mP4	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761192	GSE63348	3D organoid cell line	GSM1546459	None	mT5	None	Mouse	mT5	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761188	GSE63348	3D organoid cell line	GSM1546455	None	mP5	None	Mouse	mP5	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761179	GSE63348	3D organoid cell line	GSM1546446	None	mN7	None	Mouse	mN7	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761178	GSE63348	3D organoid cell line	GSM1546445	None	mN6	None	Mouse	mN6	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761194	GSE63348	3D organoid cell line	GSM1546461	None	mT8	None	Mouse	mT8	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761180	GSE63348	3D organoid cell line	GSM1546447	None	mN10	None	Mouse	mN10	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761189	GSE63348	3D organoid cell line	GSM1546456	None	mP6	None	Mouse	mP6	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761190	GSE63348	3D organoid cell line	GSM1546457	None	mT3	None	Mouse	mT3	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761195	GSE63348	3D organoid cell line	GSM1546462	None	mT9	None	Mouse	mT9	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761181	GSE63348	3D organoid cell line	GSM1546448	None	mN11	None	Mouse	mN11	Pancreatic_Adenocarcinoma
+GSE63348	25557080	Organoid models of human and mouse ductal pancreatic cancer.	The Tuveson Laboratory	SRX761186	GSE63348	3D organoid cell line	GSM1546453	None	mP3	None	Mouse	mP3	Pancreatic_Adenocarcinoma

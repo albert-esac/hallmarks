@@ -1,0 +1,4 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE80678	27505671	Tumor Exosomal RNAs Promote Lung Pre-metastatic Niche Formation by ActivatingAlveolar Epithelial TLR3 to Recruit Neutrophils.	None	SRX1727324	GSE80678	Primary tumor	GSM2133239	None	Tumor RNA_1	Tu-1	Mouse	Tumor RNA_1	Lung_Adenocarcinoma
+GSE80678	27505671	Tumor Exosomal RNAs Promote Lung Pre-metastatic Niche Formation by ActivatingAlveolar Epithelial TLR3 to Recruit Neutrophils.	None	SRX1727322	GSE80678	Tumor-derived exosomes	GSM2133237	None	ExoRNA_1	ExoRNA1	Mouse	ExoRNA_1	Lung_Adenocarcinoma
+GSE80678	27505671	Tumor Exosomal RNAs Promote Lung Pre-metastatic Niche Formation by ActivatingAlveolar Epithelial TLR3 to Recruit Neutrophils.	None	SRX1727325	GSE80678	Primary tumor	GSM2133240	None	Tumor RNA_2	Tu-2	Mouse	Tumor RNA_2	Lung_Adenocarcinoma

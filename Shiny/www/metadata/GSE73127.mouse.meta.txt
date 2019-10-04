@@ -1,0 +1,9 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE73127	26824076	Targeting NF-kappaB in glioblastoma: A therapeutic approach.	Verma	SRX1255269	GSE73127	normal mouse brain	GSM1887476	None	AAE5	None	Mouse	AAE5	Glioblastoma_Multiforme
+GSE73127	26824076	Targeting NF-kappaB in glioblastoma: A therapeutic approach.	Verma	SRX1255268	GSE73127	normal mouse brain	GSM1887475	None	AAE4	None	Mouse	AAE4	Glioblastoma_Multiforme
+GSE73127	26824076	Targeting NF-kappaB in glioblastoma: A therapeutic approach.	Verma	SRX1255271	GSE73127	mouse glioblastoma	GSM1887478	None	AAE7	None	Mouse	AAE7	Glioblastoma_Multiforme
+GSE73127	26824076	Targeting NF-kappaB in glioblastoma: A therapeutic approach.	Verma	SRX1255270	GSE73127	mouse glioblastoma	GSM1887477	None	AAE6	None	Mouse	AAE6	Glioblastoma_Multiforme
+GSE73127	26824076	Targeting NF-kappaB in glioblastoma: A therapeutic approach.	Verma	SRX1255274	GSE73127	mouse glioblastoma	GSM1887481	None	AAF0	None	Mouse	AAF0	Glioblastoma_Multiforme
+GSE73127	26824076	Targeting NF-kappaB in glioblastoma: A therapeutic approach.	Verma	SRX1255267	GSE73127	normal mouse brain	GSM1887474	None	AAE3	None	Mouse	AAE3	Glioblastoma_Multiforme
+GSE73127	26824076	Targeting NF-kappaB in glioblastoma: A therapeutic approach.	Verma	SRX1255272	GSE73127	mouse glioblastoma	GSM1887479	None	AAE8	None	Mouse	AAE8	Glioblastoma_Multiforme
+GSE73127	26824076	Targeting NF-kappaB in glioblastoma: A therapeutic approach.	Verma	SRX1255273	GSE73127	mouse glioblastoma	GSM1887480	None	AAE9	None	Mouse	AAE9	Glioblastoma_Multiforme

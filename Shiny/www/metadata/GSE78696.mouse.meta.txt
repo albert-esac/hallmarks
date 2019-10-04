@@ -1,0 +1,7 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE78696	27092172	Computational Identification of Key Regulators in Two Different Colorectal CancerCell Lines.	None	SRX1601922	GSE78696	1638NT1	GSM2072767	None	1638NT11wt3	None	Mouse	1638NT11wt3	Colon_Adenocarcinoma
+GSE78696	27092172	Computational Identification of Key Regulators in Two Different Colorectal CancerCell Lines.	None	SRX1601924	GSE78696	1638NT1	GSM2072769	None	1638NT13wt5	None	Mouse	1638NT13wt5	Colon_Adenocarcinoma
+GSE78696	27092172	Computational Identification of Key Regulators in Two Different Colorectal CancerCell Lines.	None	SRX1601927	GSE78696	CMT93	GSM2072772	None	CMT93c	None	Mouse	CMT93c	Colon_Adenocarcinoma
+GSE78696	27092172	Computational Identification of Key Regulators in Two Different Colorectal CancerCell Lines.	None	SRX1601925	GSE78696	CMT93	GSM2072770	None	CMT93a	None	Mouse	CMT93a	Colon_Adenocarcinoma
+GSE78696	27092172	Computational Identification of Key Regulators in Two Different Colorectal CancerCell Lines.	None	SRX1601926	GSE78696	CMT93	GSM2072771	None	CMT93b	None	Mouse	CMT93b	Colon_Adenocarcinoma
+GSE78696	27092172	Computational Identification of Key Regulators in Two Different Colorectal CancerCell Lines.	None	SRX1601923	GSE78696	1638NT1	GSM2072768	None	1638NT12wt4	None	Mouse	1638NT12wt4	Colon_Adenocarcinoma

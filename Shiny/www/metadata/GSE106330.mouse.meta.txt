@@ -1,0 +1,9 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE106330	29281831	Degree of Tissue Differentiation Dictates Susceptibility to BRAF-DrivenColorectal Cancer.	Verzi	SRX3343287	GSE106330	jejunal crypts	GSM2836169	None	BRAF_1	None	Mouse	BRAF_1	Colon_Adenocarcinoma
+GSE106330	29281831	Degree of Tissue Differentiation Dictates Susceptibility to BRAF-DrivenColorectal Cancer.	Verzi	SRX3343288	GSE106330	jejunal crypts	GSM2836170	None	BRAF_2	None	Mouse	BRAF_2	Colon_Adenocarcinoma
+GSE106330	29281831	Degree of Tissue Differentiation Dictates Susceptibility to BRAF-DrivenColorectal Cancer.	Verzi	SRX3343289	GSE106330	jejunal crypts	GSM2836171	None	BRAF_3	None	Mouse	BRAF_3	Colon_Adenocarcinoma
+GSE106330	29281831	Degree of Tissue Differentiation Dictates Susceptibility to BRAF-DrivenColorectal Cancer.	Verzi	SRX3343290	GSE106330	jejunal crypts	GSM2836172	None	SMAD4KO_Braf_1	None	Mouse	SMAD4KO_Braf_1	Colon_Adenocarcinoma
+GSE106330	29281831	Degree of Tissue Differentiation Dictates Susceptibility to BRAF-DrivenColorectal Cancer.	Verzi	SRX3343291	GSE106330	jejunal crypts	GSM2836173	None	SMAD4KO_Braf_2	None	Mouse	SMAD4KO_Braf_2	Colon_Adenocarcinoma
+GSE106330	29281831	Degree of Tissue Differentiation Dictates Susceptibility to BRAF-DrivenColorectal Cancer.	Verzi	SRX3343292	GSE106330	jejunal crypts	GSM2836174	None	SMAD4KO_Braf_3	None	Mouse	SMAD4KO_Braf_3	Colon_Adenocarcinoma
+GSE106330	29281831	Degree of Tissue Differentiation Dictates Susceptibility to BRAF-DrivenColorectal Cancer.	Verzi	SRX3343293	GSE106330	jejunal crypts	GSM2836175	None	CDX2KO_Braf_1	None	Mouse	CDX2KO_Braf_1	Colon_Adenocarcinoma
+GSE106330	29281831	Degree of Tissue Differentiation Dictates Susceptibility to BRAF-DrivenColorectal Cancer.	Verzi	SRX3343294	GSE106330	jejunal crypts	GSM2836176	None	CDX2KO_Braf_2	None	Mouse	CDX2KO_Braf_2	Colon_Adenocarcinoma

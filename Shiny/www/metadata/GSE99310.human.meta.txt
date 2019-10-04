@@ -1,0 +1,5 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE99310	28757253	Enhancer Reprogramming Promotes Pancreatic Cancer Metastasis.	None	SRX2858117	GSE99310	hT2-2D/emp cells	GSM2640999	None	hT2-2D/emp RNA-Seq (rep1)	None	Human	hT2-2D/emp RNA-Seq (rep1)	Pancreatic_Adenocarcinoma
+GSE99310	28757253	Enhancer Reprogramming Promotes Pancreatic Cancer Metastasis.	None	SRX2858118	GSE99310	hT2-2D/emp cells	GSM2641000	None	hT2-2D/emp RNA-Seq (rep2)	None	Human	hT2-2D/emp RNA-Seq (rep2)	Pancreatic_Adenocarcinoma
+GSE99310	28757253	Enhancer Reprogramming Promotes Pancreatic Cancer Metastasis.	None	SRX2858119	GSE99310	hT2-2D/FOXA1 cells	GSM2641001	None	hT2-2D/FOXA1 RNA-Seq (rep1)	None	Human	hT2-2D/FOXA1 RNA-Seq (rep1)	Pancreatic_Adenocarcinoma
+GSE99310	28757253	Enhancer Reprogramming Promotes Pancreatic Cancer Metastasis.	None	SRX2858120	GSE99310	hT2-2D/FOXA1 cells	GSM2641002	None	hT2-2D/FOXA1 RNA-Seq (rep2)	None	Human	hT2-2D/FOXA1 RNA-Seq (rep2)	Pancreatic_Adenocarcinoma

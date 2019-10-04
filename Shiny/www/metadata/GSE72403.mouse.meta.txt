@@ -1,0 +1,7 @@
+ImmPort Study ID	PubMed	Study Title	PI	Biosample ID	Experiment ID	Cohort	Repository Accession	Type	Biosample Name	Biosample Description	Species	Strain	Cancer Type
+GSE72403	27859418	Mutual epithelium-macrophage dependency in liver carcinogenesis mediated by ST18.	None	SRX1164993	GSE72403	tumor	GSM1861878	None	noDox_1	None	Mouse	noDox_1	Liver_Hepatocellular_Carcinoma
+GSE72403	27859418	Mutual epithelium-macrophage dependency in liver carcinogenesis mediated by ST18.	None	SRX1164994	GSE72403	tumor	GSM1861879	None	noDox_2	None	Mouse	noDox_2	Liver_Hepatocellular_Carcinoma
+GSE72403	27859418	Mutual epithelium-macrophage dependency in liver carcinogenesis mediated by ST18.	None	SRX1164995	GSE72403	tumor	GSM1861880	None	noDox_3	None	Mouse	noDox_3	Liver_Hepatocellular_Carcinoma
+GSE72403	27859418	Mutual epithelium-macrophage dependency in liver carcinogenesis mediated by ST18.	None	SRX1164996	GSE72403	tumor	GSM1861881	None	4hDox_1	None	Mouse	4hDox_1	Liver_Hepatocellular_Carcinoma
+GSE72403	27859418	Mutual epithelium-macrophage dependency in liver carcinogenesis mediated by ST18.	None	SRX1164997	GSE72403	tumor	GSM1861882	None	4hDox_2	None	Mouse	4hDox_2	Liver_Hepatocellular_Carcinoma
+GSE72403	27859418	Mutual epithelium-macrophage dependency in liver carcinogenesis mediated by ST18.	None	SRX1164998	GSE72403	tumor	GSM1861883	None	4hDox_3	None	Mouse	4hDox_3	Liver_Hepatocellular_Carcinoma
